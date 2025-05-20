@@ -1,0 +1,61 @@
+body {
+      background: #f9f9f9;
+      font-family: 'Segoe UI', sans-serif;
+      color: #333;
+    }
+    .section-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .skill-card, .project-card, .info-card {
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      transition: 0.3s;
+    }
+    .skill-card:hover, .project-card:hover, .info-card:hover {
+      transform: translateY(-5px);
+    }
+    .icon-box {
+      font-size: 2.5rem;
+    }
+    .progress {
+      height: 1.2rem;
+      border-radius: 10px;
+    }
+
+    .cert-img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  padding: 10px;
+}
+.carousel-item img {
+  height: 400px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+}
